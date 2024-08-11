@@ -1,0 +1,13 @@
+{
+  "text_label_mapping": {
+    "person": 0,
+    "car": 2,
+    "truck": 7,
+    "traffic light": 9,
+    "clock": 84,
+    "building-other": 95,
+    "sky-other": 156
+  },
+  "caption": "at sunset with lighting",
+  "layout_path": "building.png"
+}

@@ -1,0 +1,12 @@
+{
+  "text_label_mapping": {
+    "dog": 17,
+    "horse": 18,
+    "grass": 123,
+    "hill": 126,
+    "sky-other": 156,
+    "tree": 168
+  },
+  "caption": "the dog looks at the horse",
+  "layout_path": "./horse_dog.png"
+}

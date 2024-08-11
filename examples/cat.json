@@ -1,0 +1,12 @@
+{
+  "text_label_mapping": {
+    "cat": 16,
+    "bowknot": 31,
+    "clothes": 104,
+    "furniture-other": 122,
+    "textile-other": 166,
+    "wall-brick": 171
+  },
+  "caption": "",
+  "layout_path": "./cat.png"
+}
