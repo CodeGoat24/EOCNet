@@ -19,9 +19,9 @@ Layout-to-image synthesis is an emerging technique in conditional image generati
 
 ## 🗓️ TODOs
 
-- [√] Release inference code
-- [√] Release pre-trained models
-- [√] Release demo
+- [x] Release inference code
+- [x] Release pre-trained models
+- [x] Release demo
 - [ ] Release training code and data
 - [ ] Release evaluation code and data
 
