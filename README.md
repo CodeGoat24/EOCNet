@@ -3,6 +3,8 @@
 
 [Yibin Wang](https://codegoat24.github.io/), Honghui Xu, Changhai Zhou, [Weizhong Zhang](https://weizhonz.github.io/)&#8224;, [Cheng Jin](https://cjinfdu.github.io/)&#8224; 
 
+[Fudan University]
+
 <a href="https://arxiv.org/pdf/2311.10522">
 <img src='https://img.shields.io/badge/arxiv-EOCNet-blue' alt='Paper PDF'></a>
 
@@ -22,9 +24,7 @@ Layout-to-image synthesis is an emerging technique in conditional image generati
 - [ ] Release training code and data
 - [ ] Release evaluation code and data
 
-## 🚀 Demo
-
-### Setup
+## 🔧 Setup
 
 Please clone the repository and set up the environment:
 ```
@@ -41,16 +41,17 @@ wget -O models/ldm/stable-diffusion/sd-v2-1-full-ema.ckpt https://huggingface.co
 ```
 
 
-### Pre-trained Models
+## ⏬ Download Pre-trained Models
 
 We provide two models trained on COCO-Stuff and ADE20K respectively.
 
 * [eoc-sd-v1-4-coco.ckpt](https://drive.google.com/file/d/1GqAMPM-aqIo7L5cL5MOubZ_5FVKW4NEK/view?usp=sharing)
 * [eoc-sd-v1-4-ade20k.ckpt](https://drive.google.com/file/d/1CXsjwVOIEcNqKkI407UNyJfvVwrOsE04/view?usp=share_link)
 
+## 🚀 Demo
 ### Data Preparation
 
-You need to prepare a layout image and a json file that defines the mapping between text and layout.
+You need to prepare a layout image and a JSON file that defines the mapping between text and layout.
 
 ```
 {
@@ -68,7 +69,7 @@ You need to prepare a layout image and a json file that defines the mapping betw
 ```
 
 * Binding new attributes/generating unseen objects: Just describe the object with the desired attribute or describe a new object, e.g., change <"cat": 84> to <"Hello Kitty": 84>.
-* Specifying the style/fine-tuning semantic coherence: Just description the desired image style/specific semantic coherence in <"caption": "...">. 
+* Specifying the style/fine-tuning semantic coherence: Just describe the desired image style/specific semantic coherence in <"caption": "...">. 
 
 ### Run
 
@@ -89,6 +90,10 @@ A reference script `demo.sh` is provided as well.
 
 We thanks to [Stable Diffusion](https://github.com/CompVis/stable-diffusion) and [Textual Inversion](https://github.com/rinongal/textual_inversion) and [FreestyleNet](https://github.com/essunny310/FreestyleNet).
 
+## 🎫 License
+For non-commercial academic use, this project is licensed under [the 2-clause BSD License](https://opensource.org/license/bsd-2-clause). 
+For commercial use, please contact [Cheng Jin](jc@fudan.edu.cn).
+
 ## 🖊️ BibTeX
 
 If you find this project useful in your research, please consider cite:
@@ -101,3 +106,7 @@ If you find this project useful in your research, please consider cite:
   year={2023}
 }```
 ```
+
+## 📧 Contact
+
+If you have any technical comments or questions, please open a new issue or feel free to contact [Yibin Wang](https://codegoat24.github.io).
