@@ -86,10 +86,6 @@ python demo.py --config configs/stable-diffusion/v1-inference_demo.yaml \
 
 A reference script `demo.sh` is provided as well.
 
-## 🙏 Acknowledgments
-
-We thanks to [Stable Diffusion](https://github.com/CompVis/stable-diffusion) and [Textual Inversion](https://github.com/rinongal/textual_inversion) and [FreestyleNet](https://github.com/essunny310/FreestyleNet).
-
 ## 🎫 License
 For non-commercial academic use, this project is licensed under [the 2-clause BSD License](https://opensource.org/license/bsd-2-clause). 
 For commercial use, please contact [Cheng Jin](jc@fudan.edu.cn).
@@ -110,3 +106,8 @@ If you find this project useful in your research, please consider cite:
 ## 📧 Contact
 
 If you have any technical comments or questions, please open a new issue or feel free to contact [Yibin Wang](https://codegoat24.github.io).
+
+
+## 🙏 Acknowledgements
+
+Our work is based on [Stable-Diffusion](https://github.com/Stability-AI/stablediffusion), thanks to all the contributors!
