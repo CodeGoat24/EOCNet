@@ -1,7 +1,7 @@
 <div align="center">
 <h1>Enhancing Object Coherence in Layout-to-Image Synthesis</h1>
 
-[Yibin Wang](https://codegoat24.github.io/), Honghui Xu, Changhai Zhou, [Weizhong Zhang](https://weizhonz.github.io/)&#8224;, [Cheng Jin](https://cjinfdu.github.io/)&#8224; 
+[Yibin Wang](https://codegoat24.github.io/), Changhai Zhou, Honghui Xu&#8224; 
 
 [Fudan University]
 
