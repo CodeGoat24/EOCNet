@@ -5,6 +5,8 @@
 
 [Fudan University]
 
+ICME 2025
+
 <a href="https://arxiv.org/pdf/2311.10522">
 <img src='https://img.shields.io/badge/arxiv-EOCNet-blue' alt='Paper PDF'></a>
 
